@@ -37,7 +37,6 @@ body{
   padding: 0 0 4.5rem;
 }
 
-
 .navbar-brand{
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -127,6 +126,17 @@ body{
   padding: 3% 2%;
 }
 
+@media (max-width :1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
 #cta {
   background-color: #ff4c68;
   color: #fff;
@@ -149,16 +159,4 @@ body{
   font-family: Montserrat-Black;
   font-size: 3.5rem;
   line-height: 5rem;
-}
-
-@media (max-width :1028px){
-  .title-image{
-    position: static;
-    transform: rotate(0);
-  }
-
-  #title{
-    text-align: center;
-  }
-
 }
