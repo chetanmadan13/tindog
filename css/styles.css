@@ -158,7 +158,9 @@ body {
   #title {
     text-align: center;
   }
+}
 
+@@media (max-width :900px) {
   body {
     font-size: 1.5rem;
   }
@@ -174,7 +176,4 @@ body {
   }
   #footer{
     padding: 4% auto 1%;
-  }
-
-
 }
