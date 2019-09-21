@@ -37,6 +37,7 @@ body{
   padding: 0 0 4.5rem;
 }
 
+
 .navbar-brand{
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -150,7 +151,7 @@ body{
   line-height: 5rem;
 }
 
-@media (max-width :1028px){
+@media (max-width :900px){
   .title-image{
     position: static;
     transform: rotate(0);
@@ -159,3 +160,4 @@ body{
   #title{
     text-align: center;
   }
+}
