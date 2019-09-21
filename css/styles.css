@@ -151,7 +151,7 @@ body{
   line-height: 5rem;
 }
 
-@media (max-width: 1300px){
+@media (max-width :1028px){
   .title-image{
     position: static;
     transform: rotate(0);
@@ -160,4 +160,5 @@ body{
   #title{
     text-align: center;
   }
+
 }
